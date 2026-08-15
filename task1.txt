@@ -1,0 +1,112 @@
+CODEALPHA CYBER SECURITY INTERNSHIP
+
+TASK 1 – BASIC NETWORK SNIFFER
+
+PROJECT STEPS
+
+1. Project Objective
+
+The objective of this project is to develop a basic network sniffer using Python and Scapy to capture and analyse network packets.
+
+2. Python Installation
+
+First, I installed Python on my system and verified the installation using the command:
+
+python --version
+
+3. Scapy Installation
+
+I installed the Scapy library using:
+
+pip install scapy
+
+Scapy is a Python library used for capturing and analysing network packets.
+
+4. Creating the Python Program
+
+I created a Python file named:
+
+sniffer.py
+
+5. Writing the Code
+
+I wrote a Python program using Scapy to capture network packets.
+
+The program captures 10 packets and displays:
+
+* Source IP address
+* Destination IP address
+* Protocol
+* Payload, when available
+
+6. Running the Program
+
+I opened Command Prompt and ran the program using:
+
+python sniffer.py
+
+The program started capturing network packets.
+
+7. Generating Network Traffic
+
+To generate network traffic, I opened websites in the browser and used network activity so that packets could be captured by the sniffer.
+
+8. Analysing the Output
+
+The program displayed information about the captured packets.
+
+Example:
+
+Source IP      : 192.168.x.x
+Destination IP : xxx.xxx.xxx.xxx
+Protocol       : TCP
+
+The Source IP represents the device sending the packet.
+
+The Destination IP represents the device receiving the packet.
+
+The Protocol identifies the type of network communication, such as TCP, UDP or ICMP.
+
+9. Payload
+
+The program also checks whether a packet contains a Raw layer.
+
+If a payload is available, the program displays it.
+
+Payload represents the data carried inside a network packet.
+
+10. Testing
+
+I tested the program by running it and generating network traffic. The program successfully captured packets and displayed their information.
+
+11. GitHub Upload
+
+After completing and testing the project, I created a GitHub repository named:
+
+CodeAlpha_Basic_Network_Sniffer
+
+I uploaded the following files:
+
+* sniffer.py
+* sniff.py
+* README.md
+* Output screenshot
+* Output1.png
+* Output2.png
+* Output3.png
+
+
+12. Final Result
+
+The Basic Network Sniffer successfully captures network packets and displays useful information such as Source IP, Destination IP, Protocol and Payload when available.
+
+TECHNOLOGIES USED
+
+* Python
+* Scapy
+* Command Prompt
+* GitHub
+
+PROJECT OUTCOME
+
+This project helped me understand how network packets are captured and analysed using Python and Scapy. It also improved my understanding of IP addresses, network protocols and packet structure.
